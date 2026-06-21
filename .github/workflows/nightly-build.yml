@@ -205,7 +205,7 @@ jobs:
         with:
           name: cherry-studio-nightly-${{ steps.date.outputs.date }}-${{ matrix.os }}
           path: renamed-artifacts/*
-          retention-days: 3 # 保留3天
+          retention-days: 3
           compression-level: 8
 
   Build-Summary:
